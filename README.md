@@ -1,8 +1,6 @@
+![Portada FlaskServer](/assets/Portada.png "Portada FlaskServer")
 
-
-![Portada](/assets/Portada.png "Title")
-
-Este proyecto fue creado con Python 3.10.2, Flask 2.2.2
+Este proyecto fue desarrollado por fines educativos con Python 3.10.2 utilizando el framework Flask 2.2.2
 
 
 ## Instalación
