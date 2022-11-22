@@ -12,6 +12,6 @@ Visualizar la versión instalada utilizando el comando `python -c "import flask;
 
 ## Ejecución
 
-Ejecutar el proyecto utilizando el comando `python app.py`, 
+Ejecutar el proyecto utilizando el comando `python app.py`
 
 Verificar la ejecución de la aplicación en `http://127.0.0.1:5000`
