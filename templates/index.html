@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Bienvenido a FlaskServer {% endblock %}</h1>
+
+    {% for post in posts %}
+        <a href="posts/{{ post['id'] }}">
+            <h2 class="text-secondary">{{ post['title'] }}</h2>
+        </a>
+        <span class="badge badge-secondary">{{ post['created'] }}</span>
+        <p>{{ post['content'] }}</p>
+        <hr>
+    {% endfor %}
+
+{% endblock %}

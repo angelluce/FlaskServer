@@ -7,7 +7,7 @@ Este proyecto fue desarrollado por fines educativos con Python 3.10.2 utilizando
 
 Instalar Flask en el proyecto utilizando el comando `pip install flask`
 
-Visualizar la versión instalada utilizando el comando `python -c "import flask; print(flask.__version__)"`
+Visualizar la versión instalada de Flask utilizando el comando `python -c "import flask; print(flask.__version__)"`
 
 
 ## Ejecución
