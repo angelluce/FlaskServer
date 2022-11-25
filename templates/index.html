@@ -1,15 +1,16 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} Bienvenido a FlaskServer {% endblock %}</h1>
+    <h1 class="text-center mt-3">{% block title %} Bienvenido a FlaskServer {% endblock %}</h1>
 
     {% for post in posts %}
+    <div class="card shadow-sm mt-3 p-3">
         <a href="posts/{{ post['id'] }}">
-            <h2 class="text-secondary">{{ post['title'] }}</h2>
+            <h3 class="m-0 text-secondary">{{ post['title'] }}</h3>
         </a>
-        <span class="badge badge-secondary">{{ post['created'] }}</span>
-        <p>{{ post['content'] }}</p>
-        <hr>
+        <span class="text-muted">{{ post['created'] }}</span>
+        <p class="m-0">{{ post['content'] }}</p>
+    </div>
     {% endfor %}
 
 {% endblock %}

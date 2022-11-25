@@ -1,7 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h2 class="text-secondary">{% block title %} {{ post['title'] }} {% endblock %}</h2>
-    <span class="badge badge-secondary">{{ post['created'] }}</span>
-    <p>{{ post['content'] }}</p>
+    <div class="card shadow-sm mt-3 p-3">
+        <h3 lass="m-0 text-secondary">{% block title %} {{ post['title'] }} {% endblock %}</h3>
+        <span class="text-muted">{{ post['created'] }}</span>
+        <p class="m-0">{{ post['content'] }}</p>
+    </div>
 {% endblock %}
