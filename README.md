@@ -1,9 +1,9 @@
-![Portada FlaskServer](/assets/FlaskServer.png "Portada FlaskServer")
+![FlaskServer](/assets/FlaskServer.png "FlaskServer")
 
 
 # FlaskServer
 
-Este proyecto fue desarrollado con fines educativos en `Python` utilizando `Flask`, además se implementó: `SQLite` para almacenar y manejar información; `Jinga` para construir plantillas de respuesta; `Bootstrap` para aplicar estilos durante la interacción con la aplicación.
+Este proyecto fue desarrollado en `Python` con fines educativos. Se utilizó: `Flask` para facilitar el desarrollo bajo el patrón MVC; `SQLite` para almacenar y manejar información; `Jinga` para construir templates de respuesta; `Bootstrap` para aplicar estilos a los templates.
 
 
 ## Documentación
@@ -12,6 +12,7 @@ Revisar la documentación oficial de las herramientas utilizadas para este proye
 ```bash
 https://docs.python.org/3.10/
 https://flask.palletsprojects.com/
+https://flask-login.readthedocs.io/
 https://jinja.palletsprojects.com/
 https://sqlite.org/index.html
 https://getbootstrap.com/docs/
