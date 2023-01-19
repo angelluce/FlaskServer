@@ -9,11 +9,11 @@ with open('db/script.sql') as f:
 cur = connection.cursor()
 
 cur.execute("INSERT INTO posts (title, content) VALUES (?, ?)",
-            ('First Post', 'Content for the first post')
+            ('Hola mundo', 'Contenido del post')
             )
 
 cur.execute("INSERT INTO posts (title, content) VALUES (?, ?)",
-            ('Second Post', 'Content for the second post')
+            ('Python, Flask', 'Contenido del post')
             )
 
 connection.commit()

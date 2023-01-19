@@ -78,6 +78,8 @@ def home():
     return {
         'mensaje': '¡Flask está ejecutándose!',
         'estado': True,
+        'menu': '/json, /json/?post_id',
+        'menu_ui': '/ui, /ui/?post_id'
     }
 
 
