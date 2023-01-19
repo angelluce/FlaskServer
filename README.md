@@ -3,7 +3,7 @@
 
 # FlaskServer
 
-Este proyecto fue desarrollado en `Python` con fines educativos. Se utilizó: `Flask` para facilitar el desarrollo bajo el patrón MVC; `SQLite` para almacenar y manejar información; `Jinga` para construir templates de respuesta; `Bootstrap` para aplicar estilos a los templates.
+Este proyecto está desarrollado en `Python` con fines educativos utilizando el framework `Flask`. Además, `SQLite` para almacenar y manejar información; `Jinga` para construir algunos templates básicos de respuesta y `Bootstrap` para aplicar estilos.
 
 
 ## Documentación
